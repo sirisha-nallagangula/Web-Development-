@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>arrays</title>
+</head>
+<body>
+<p id = "ar">Working with arrays</p>
+<script>
+const sub = ['Python', 'Java', 'wt', 'cc', 'ml'];
+const sr = [];
+sr[0] = 'first';
+sr[1] = 'second';
+sr[2] = 'third';
+const ar2 = new Array('hi', 'hello', 'welcome', 'to', 'Java script');
+document.getElementById("ar").innerHTML=ar2;
+document.write(ar2[2]);
+subpush("AIML");
+document.write(sub + "<br>");
+sub.shift()
+document.write(sub);
+sub.concat(sr + "<br>");
+sub.copyWithin(2, 0);
+document.write(sub);
+</script>
+</body>
+</html>
